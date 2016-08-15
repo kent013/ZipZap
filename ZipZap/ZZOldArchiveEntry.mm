@@ -22,9 +22,6 @@
 #import "ZZConstants.h"
 
 @interface ZZOldArchiveEntry ()
-
-- (NSData*)fileData;
-
 - (BOOL)checkEncryptionAndCompression:(out NSError**)error;
 - (NSInputStream*)streamForData:(NSData*)data withPassword:(NSString*)password error:(out NSError**)error;
 

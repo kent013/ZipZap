@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (readonly, nonatomic) mode_t fileMode;
 @property (readonly, nonatomic) NSData* rawFileName;
 @property (readonly, nonatomic) NSStringEncoding encoding;
+@property (readonly, nonatomic) NSData* fileData;
 
 - (instancetype)init NS_UNAVAILABLE;
 
